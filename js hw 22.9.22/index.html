@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+<script>
+///targil 1
+/// קלוט שני ערכים והצג
+///"growing..."
+///אם השני גדול מהראשון בלבד
+      
+document.write ("<h1> targil 1 </h1> </br>" )
+    
+a=parseInt(prompt('enter nanber a'))
+b=parseInt(prompt('enter nanber b'))
+
+document.write (`1 namber ${a}</br> `)
+document.write (`2 namber ${b}</br> `)
+
+if (b>a)
+  { document.write ( "growing... </br>")}
+   
+/// targil 2
+///קלוט שני ערכים והצג את הערך הגדול ביותר
+/// בשיוויון הצג את שניהם
+
+  document.write ("<h1> targil 2 </h1> </br>" )
+
+a=parseInt(prompt('enter nanber a'))
+b=parseInt(prompt('enter nanber b'))
+
+document.write (`1 namber ${a}</br> `)
+document.write (`2 namber ${b}</br> `)
+
+if (a=>b) 
+{document.write (a)}
+
+///targil 3 
+///קלוט שלם והצג
+///"even"
+/// אם הוא זוגי ו
+///"odd"
+///אם הוא לא.
+
+document.write ("<h1> targil 3 </h1> </br>" )
+    
+a=parseInt(prompt('enter nanber a'))
+
+document.write (`1 namber ${a}</br> `)
+
+if (a % 2 == 0)
+{document.write ("even")}
+else {document.write ("odd")}
+
+/// targil 4
+///קלוט שני שלמים. והצג אם הראשון
+///מתחלק בשני ללא שארית.
+///ובנוסף, האם השני מתחלק בראשון ללא שארית.
+
+document.write ("<h1> targil 4 </h1> </br>" )
+
+a=parseInt(prompt('enter nanber a'))
+b=parseInt(prompt('enter nanber b'))
+
+document.write (`1 namber ${a}</br> `)
+document.write (`2 namber ${b}</br> `)
+
+if (a % b == 0)
+{document.write ("without remainder </br>")}
+else
+{document.write ("with a remainder </br> ")}
+
+if (b % a == 0)
+{document.write ("without remainder </br>")}
+else
+{document.write ("with a remainder </br>")}
+
+
+///targil 5
+/// קלוט שני ערכים והצג קודם את הערך הקטן
+///ואת הערך הגדול אחריו (בשיוויון הצג את שניהם).
+
+document.write ("<h1> targil 5 </h1> </br>" )
+
+a=parseInt(prompt('enter nanber a'))
+b=parseInt(prompt('enter nanber b'))
+
+document.write (`1 namber ${a}</br> `)
+document.write (`2 namber ${b}</br> `)
+
+if (a => b)
+{document.write (b,"",a)}
+else
+{document.write (a,"",b)}
+
+///targil 6
+///בעל בית תוכנה החליט להעלות את המשכורת של כל תוכניתן ב-10%, 
+///בתנאי שלאחר העלאה כזו הסכום לא יהיה גבוה מ- 6000 ש"ח.
+///אם הסכום אכן יהיה גבוה מ-6000 ש"ח,
+///יקבל אותו תוכניתן העלאה של 5% בלבד
+
+document.write ("<h1> targil 6 </h1> </br>" )
+
+a=parseInt(prompt('enter nanber a'))
+
+document.write (`1 namber ${a}</br> `)
+
+k = a*110/100
+
+if (k <= 6000)
+{document.write ("הגדל משכורת ב10% </br> סך הכל משכורת:", k)}
+else
+{document.write ("הגדל משכורת ב5% </br> סך הכל משכורת:", a*105/100)}
+
+
+/// targil 7
+///מנהל ביה"ס "יסוד" החליט שלא יופיעו בתעודות בציונים המספריים, אלא הערכה מילולית לפי המפתח הבא:
+///פחות מ 55 = בלתי מספיק
+///מ55 עד 64 = מספיק
+///מ65 עד 74 = כמעט טוב
+///מ74 עד 84 = טוב
+///מ85 עד 94 = טוב מאד
+///מ95 ומעלה = מצויין
+///קלוט ציון של תלמיד והצג את הערכה המילולית המתאימה.
+
+document.write ("<h1> targil 7 </h1> </br>" )
+
+a=parseInt(prompt('enter nanber a'))
+
+document.write (`1 namber ${a}</br> `)
+
+if (a<55)
+{document.write ("בלתי מספיק </br>")}
+else
+ {if (a<65)
+    document.write (" מספיק </br>")
+    else {if (a<75) 
+        document.write ("כמעט טוב </br>")
+        else {if (a<85)
+        document.write ("טוב </br>")
+            else {if (a<95)
+                document.write("טוב מאד  </br>")
+                else 
+            {document.write ("מצויין </br>")}}
+         }}}
+        
+
+///targil 8
+///קלוט שלושה ערכים, הצג
+///"increasing" 
+///אם השני גדול מהראשון והשלישי גדול מהשני בלבד
+
+document.write ("<h1> targil 8 </h1> </br>" )
+    
+a=parseInt(prompt('enter nanber a'))
+b=parseInt(prompt('enter nanber b'))
+c=parseInt(prompt('enter nanber c'))
+
+document.write (`1 namber ${a}</br> `)
+document.write (`2 namber ${b}</br> `)
+document.write (`3 namber ${c}</br> `)
+
+if (b>a && c>b)
+{document.write ("increasing...")}
+
+///targil 9
+/// קלוט שלושה ערכים והצג את הערך
+/// הגדול ביותר - בשיוויון הצד את אחד המספרים
+
+document.write ("<h1> targil 9 </h1> </br>" )
+    
+a=parseInt(prompt('enter nanber a'))
+b=parseInt(prompt('enter nanber b'))
+c=parseInt(prompt('enter nanber c'))
+
+document.write (`1 namber ${a}</br> `)
+document.write (`2 namber ${b}</br> `)
+document.write (`3 namber ${c}</br> `)
+
+if (a>b && a>c)
+{document.write (a)}
+else { if (b>c)
+    {document.write (b)}
+    else 
+    {document.write (c)}}
+
+/// targil 10
+/// אגף מס הכנסה קבע מדרגות מס באופן הבא
+/// על כל שקל מ 23,000 ש"ח הראשונים - שיעור המס הוא 10%
+/// על כל שקל מ 23,000 ש"ח הבאים- שיעור המס הוא 20%
+/// על כל שקל מ 74,000 ש"ח הבאים - שיעור המס הוא 30% 
+/// על כל שקל מ 100,000 ש"ח הבאים - שיעור המס הוא 40%
+/// על כל שקל נוסף - שיעור המס הוא 50%
+
+document.write ("<h1> targil 10 </h1> </br>" )
+    
+    a=parseInt(prompt('enter nanber a'))
+    
+    document.write (`1 namber ${a}</br> `)
+    
+    darga1 = 23000*10/100
+    darga2 = darga1 + 23000*20/100
+    darga3 = darga2 + 74000*30/100
+    darga4 = darga3 + 100000*40/100
+
+    sum_dar1 = 23000
+    sum_dar2 = 46000
+    sum_dar3 = 120000
+    sum_dar4 = 220000
+    
+    if (a <= 23000)
+    { document.write ("Total tax:", a*10/100)  }
+    else 
+    {if (a  <= 46000)
+    {document.write ("Total tax:", darga1 + (a-sum_dar1)* 20/100)}
+       else {if (a <= 120000) 
+    {document.write ("Total tax:",darga2 + (a-sum_dar2)*30/100) }
+          else { if (a <= 220000)
+            { document.write ("Total tax:", darga3 + (a - sum_dar3)*40/100)  }
+             else 
+             {document.write ("Total tax:", darga4 + (a - sum_dar4)*50/100)}
+          }}}
+
+
+
+</script>
+
+
+    
+</body>
+</html>
